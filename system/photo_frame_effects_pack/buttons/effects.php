@@ -4,7 +4,7 @@ class EffectsButton extends PhotoFrameButton {
 	
 	public $name = 'Effects';
 	
-	public $moduleName = 'photo_frame_button_pack';
+	public $moduleName = 'photo_frame_effects_pack';
 	
 	public function startCrop($data = array())
 	{
