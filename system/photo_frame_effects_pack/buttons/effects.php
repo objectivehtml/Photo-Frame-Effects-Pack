@@ -19,8 +19,8 @@ class EffectsButton extends PhotoFrameButton {
 			require_once(PATH_THIRD . 'libraries/ImageEditor.php');
 		}
 		
-		$filename = basename($data['url']);
-		$path     = rtrim($data['path'], '/') . '/_thumbs/' . $filename;
+		$filename = basename($data['originalPath']);
+		$path     = rtrim($data['serverPath'], '/') . '/_thumbs/' . $filename;
 		
 		if(!file_exists($path))
 		{
