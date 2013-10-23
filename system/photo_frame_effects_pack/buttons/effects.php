@@ -20,8 +20,8 @@ class EffectsButton extends PhotoFrameButton {
 		}
 		
 		$filename = basename($data['originalPath']);
-		$path     = rtrim($data['serverPath'], '/') . '/_thumbs/' . $filename;
-		
+		$path     = rtrim(str_replace($filename, '', $data['originalPath']), '/') . '/_thumbs/' . $filename;
+
 		if(!file_exists($path))
 		{
 			return $path;
