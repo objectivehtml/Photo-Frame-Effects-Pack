@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-$config['photo_frame_effects_pack_version'] = '1.1.1';
+$config['photo_frame_effects_pack_version'] = '1.1.2';
 
 if(!defined('PHOTO_FRAME_EFFECTS_PACK_VERSION'))
 {
